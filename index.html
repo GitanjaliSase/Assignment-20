@@ -30,31 +30,36 @@
         }
         .container2{
             height: 300px;
-            width: 800px;
+            width: 900px;
             display: flex;
             background-color:bisque;
             padding: 18px;
             border-radius: 10px;
             flex-direction:row-reverse;
-            align-items:center;
+            align-items:end;
+            justify-content: start;
         }
         .container3{
-            height: 900px;
-            width: 160px;
+            height: 600px;
+            width: 400px;
             display: flex;
             background-color:bisque;
             padding: 20px;
             border-radius: 10px;
             flex-direction:column;
+            flex-wrap: wrap;
+            align-items:center;
         }
         .container4{
-            height: 800px;
-            width: 160px;
+            height: 1200px;
+            width: 600px;
             display: flex;
             background-color:bisque;
             padding: 20px;
             border-radius: 10px;
             flex-direction:column-reverse;
+            justify-content:space-around;
+            align-items: start;
         }
       
     </style>
@@ -76,7 +81,7 @@
         <img src="./images/mango.jpg" class="item">
         <img src="./images/pineapple.jpg" class="item">
     </div>
-    <h1> flex-direction: row-reverse</h1>
+    <h1> flex-direction: row-reverse ,justify-content: start and align-items:end</h1>
     <div class="container2">
         <img src="./images/apple.jpg" class="item">
         <img src="./images/banana.jpg" class="item">
@@ -84,7 +89,7 @@
         <img src="./images/mango.jpg" class="item">
         <img src="./images/pineapple.jpg" class="item">
     </div>
-    <h1> flex-direction: column</h1>
+    <h1> flex-direction: column , flex-wrap: wrap and align-items:center </h1>
     <div class="container3">
         <img src="./images/apple.jpg" class="item">
         <img src="./images/banana.jpg" class="item">
@@ -92,7 +97,7 @@
         <img src="./images/mango.jpg" class="item">
         <img src="./images/pineapple.jpg" class="item">
     </div>
-    <h1> flex-direction: column-reverse</h1>
+    <h1> flex-direction: column-reverse ,justify-content: space-around and align-items:start;</h1>
     <div class="container4">
         <img src="./images/apple.jpg" class="item">
         <img src="./images/banana.jpg" class="item">
